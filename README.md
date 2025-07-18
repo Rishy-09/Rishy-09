@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="BANNER_IMAGE_LINK_HERE" alt="banner" />
+  <img src="banner.png" alt="banner" />
 </p>
 
 <h1 align="center">Hi 👋, I'm Naman</h1>
