@@ -82,7 +82,7 @@
 
 ### 📈 Contribution Graph
 
-[![Rishy-09's GitHub activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Rishy-09&theme=github-compact)](https://github.com/Rishy-09)
+[![Rishy-09's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Rishy-09&theme=github-compact)](https://github.com/Rishy-09)
 
 ---
 
