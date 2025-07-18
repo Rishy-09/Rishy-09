@@ -1,70 +1,106 @@
-# Hi, I'm Naman (Rishy-09) 👋
+<p align="center">
+  <img src="BANNER_IMAGE_LINK_HERE" alt="banner" />
+</p>
 
-**Machine Learning Student | Transformer Enthusiast | Open Source Contributor**
+<h1 align="center">Hi 👋, I'm Naman</h1>
+<h3 align="center">Transformers | ML Engineer in Progress | Backend Dev</h3>
 
----
-
-### 🚀 About Me
-- BTech student specializing in Machine Learning.
-- Built a GPT-style transformer model from scratch for spell correction using PyTorch.
-- Customized Karpathy’s minGPT to deepen understanding of transformer internals.
-- Developed a full-stack bug tracking system with role-based access control, email notifications, and file attachments.
-- Interned at Hashbyte Studio contributing to gaming-related projects.
-- Passionate about building real ML projects and applying theoretical knowledge practically.
-- Currently focused on securing ML internship or contribution opportunities within 5 months.
-
----
-
-### 🛠️ Tech Stack
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EF6C00?style=flat-square&logo=pytorch&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+<p align="center">
+  <a href="https://github.com/Rishy-09">
+    <img src="https://komarev.com/ghpvc/?username=rishy-09&label=Profile%20views&color=0e75b6&style=flat" alt="rishy-09" />
+  </a>
+  <a href="https://github.com/Rishy-09?tab=followers">
+    <img src="https://img.shields.io/github/followers/Rishy-09?label=Followers&style=social" />
+  </a>
+</p>
 
 ---
 
-### 📈 GitHub Stats & Activity
+### 🧠 About Me
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Rishy-09&show_icons=true&hide_border=true&theme=radical)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Rishy-09&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Rishy-09&layout=compact&theme=radical)
-
----
-
-### 📂 Project Showcase
-
-#### SpellCorrectionGPT  
-Built a transformer decoder-only GPT model from scratch to correct spelling errors in noisy text.  
-- Includes BPE tokenizer training and custom training scripts in PyTorch.  
-- [Repo Link](https://github.com/Rishy-09/minGPT-custom)  
-
-#### minGPT Custom Fork  
-Modified Karpathy’s minGPT repo for better training and deeper understanding of transformer internals.  
-- [Repo Link](https://github.com/karpathy/minGPT)
-
-#### Bug Tracking System  
-Full-stack web app with role-based access control, email notifications, and file attachment features.  
-- [Repo Link](https://github.com/Rishy-09/BugTrackingSystem)  
+- 🎓 I'm pursuing BTech in CSE with a major in **Machine Learning**  
+- 🔬 Currently exploring and building **GPT-style transformer models**  
+- ⚙️ Built a decoder-only transformer for **spell correction** using PyTorch  
+- 🔧 Customizing Karpathy’s **minGPT** and scaling via **NanoGPT**  
+- 🐞 Created a **Bug Tracking System** with role-based access, file uploads, and email alerts  
+- 💼 Interning at **Hashbyte Studio**, learning systems in gaming environments  
+- 🧭 Building my **AI Agent Mastery Roadmap** to reach top 1% LLM devs  
+- 🚀 Goal: Intern / freelance / contribute in ML within next **5 months**
 
 ---
 
-### 📫 Contact Me
+### 🛠️ Languages and Tools
 
-- Email: **[namanchanana2005@gmail.com]**  
-- LinkedIn: [linkedin.com/in/naman-rishy09](https://www.linkedin.com/in/naman-chanana-229317299/) 
-- Kaggle: [kaggle.com/Rishy09]([https://kaggle.com/Rishy09](https://www.kaggle.com/namanchanana))
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40"/>
+</p>
 
 ---
 
-### ⚡ Fun Facts & Philosophy
-- I learn best by **building from scratch**, not just theory.
-- Transformer architectures fascinate me; that’s why I built GPT models from scratch.
-- I keep my GitHub active by regularly updating projects and learning new skills.
-- Focused on **real-world applications** and contributing meaningfully to open source and internships.
+### 🚀 Highlight Projects
+
+#### 🧠 SpellCorrection-GPT
+> Transformer-based GPT decoder model trained to fix noisy sentences.
+
+- Custom BPE tokenizer
+- Implemented multi-head attention, feed-forward layers, and layer norm from scratch
+- Trained in PyTorch on noisy-clean sentence pairs
+- [GitHub Repo](https://github.com/Rishy-09/minGPT-custom) | [Kaggle Notebook](https://www.kaggle.com/code/namanchanana/mini-gpt/edit) 
+
+#### 🐞 Fullstack Bug Tracking System
+> Role-based bug tracker built with Node.js, Express, MongoDB, React.
+
+- Admin/Tester/Developer role flows
+- Real-time email notifications
+- File uploads and download routes
+- Modular API structure
+- [Repo Link](https://github.com/Rishy-09/BugTrackingSystem)
+
+#### 🧭 AI Agent Mastery Roadmap
+> Curated Notion/GitHub plan for mastering LLMs, AutoGPTs, and AI agents.
+
+- Phase-based roadmap (Foundations → Projects → Agent Systems → Mastery)
+- Includes lecture notes from CS224n, YouTube, blogs, and papers
+- [In Progress]
 
 ---
 
-<!-- Optional: Add any certifications, learning badges, or additional projects here -->
+### 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Rishy-09&show_icons=true&theme=radical" />
+  <img src="https://streak-stats.demolab.com/?user=Rishy-09&theme=radical" />
+</p>
 
+---
+
+### 📈 Contribution Graph
+
+[![Rishy-09's GitHub activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Rishy-09&theme=github-compact)](https://github.com/Rishy-09)
+
+---
+
+### 📫 Contact
+
+- 💼 LinkedIn: [linkedin.com/in/naman-rishy09](https://www.linkedin.com/in/naman-chanana-229317299/)
+- 📊 Kaggle: [kaggle.com/Rishy09](https://www.kaggle.com/namanchanana)
+- 📨 Email: [namanchanana2005@gmail.com]
+
+---
+
+### 💡 Currently Exploring
+- Scaling SpellCorrectionGPT with NanoGPT
+- Real-time AI agents and toolformer models
+- Kaggle challenges (NLP, tabular ML)
+- Self-hosted RAG pipelines
+
+---
+
+### 🧩 Fun Fact
+> I don't just learn models, I break them, rebuild them, and make them work for **real use-cases.**
