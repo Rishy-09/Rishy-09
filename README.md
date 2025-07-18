@@ -1,54 +1,70 @@
-<img src="https://raw.githubusercontent.com/Rishy-09/Rishy-09/main/banner.png" width="100%" alt="Banner" />
+# Hi, I'm Naman (Rishy-09) 👋
 
-# Hey, I'm Naman (a.k.a Rishy) 👋
-
-> "build → break → learn → repeat"
-
-I’m a **Machine Learning enthusiast**, currently mastering **transformers, GPTs, and AI agents**.  
-Driven by real-world impact, I build projects from scratch to **understand how things work under the hood** — from tokenizers to transformer blocks.  
-
-🎯 Currently aiming to **monetize AI skills** while building open, production-ready tools.
+**Machine Learning Student | Transformer Enthusiast | Open Source Contributor**
 
 ---
 
-### 🔧 Tech Stack
-
-- **Languages**: Python, Java, C++, JavaScript  
-- **ML/AI**: PyTorch, Transformers, HuggingFace, OpenCV  
-- **Web Dev**: React, Node.js, Express, MongoDB  
-- **Tools**: Git, Docker, Unity, VS Code
-
----
-
-### 🚀 Highlight Projects
-
-| Project | Description | Repo |
-|--------|-------------|------|
-| 🔡 **SpellCorrect-GPT** | GPT model trained for noisy spelling correction | [🔗](https://github.com/Rishy-09/spellcorrect-gpt) |
-| 📘 **Smart Library System** | Java Swing-based library manager with role-based access | [🔗](https://github.com/Rishy-09/Smart-Library-Management-System) |
-| 🧠 **Bug Tracker** | Full-stack issue tracker with email alerts & RBAC | [🔗](https://github.com/Rishy-09/Bug-Tracking-System) |
+### 🚀 About Me
+- BTech student specializing in Machine Learning.
+- Built a GPT-style transformer model from scratch for spell correction using PyTorch.
+- Customized Karpathy’s minGPT to deepen understanding of transformer internals.
+- Developed a full-stack bug tracking system with role-based access control, email notifications, and file attachments.
+- Interned at Hashbyte Studio contributing to gaming-related projects.
+- Passionate about building real ML projects and applying theoretical knowledge practically.
+- Currently focused on securing ML internship or contribution opportunities within 5 months.
 
 ---
 
-### 🏗️ Currently Building
+### 🛠️ Tech Stack
 
-- 🧠 Scaling **SpellCorrect-GPT** with **NanoGPT**
-- 🪄 Custom AI agents with **LLM tooling**
-- 📊 Making ML more visual and open-source friendly
-
----
-
-### 🌐 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rishy09-blue?logo=linkedin)](https://www.linkedin.com/in/rishy09)  
-[![GitHub](https://img.shields.io/badge/GitHub-Rishy--09-black?logo=github)](https://github.com/Rishy-09)  
-[![Kaggle](https://img.shields.io/badge/Kaggle-Rishy09-blue?logo=kaggle)](https://www.kaggle.com/rishy09)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EF6C00?style=flat-square&logo=pytorch&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
 ---
 
-<!-- Optional GitHub Stats Section -->
-<!-- 
-### 📈 GitHub Stats
+### 📈 GitHub Stats & Activity
 
-![Rishy-09's GitHub stats](https://github-readme-stats.vercel.app/api?username=Rishy-09&show_icons=true&theme=dark)
--->
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Rishy-09&show_icons=true&hide_border=true&theme=radical)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Rishy-09&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Rishy-09&layout=compact&theme=radical)
+
+---
+
+### 📂 Project Showcase
+
+#### SpellCorrectionGPT  
+Built a transformer decoder-only GPT model from scratch to correct spelling errors in noisy text.  
+- Includes BPE tokenizer training and custom training scripts in PyTorch.  
+- [Repo Link](https://github.com/Rishy-09/minGPT-custom)  
+
+#### minGPT Custom Fork  
+Modified Karpathy’s minGPT repo for better training and deeper understanding of transformer internals.  
+- [Repo Link](https://github.com/karpathy/minGPT)
+
+#### Bug Tracking System  
+Full-stack web app with role-based access control, email notifications, and file attachment features.  
+- [Repo Link](https://github.com/Rishy-09/BugTrackingSystem)  
+
+---
+
+### 📫 Contact Me
+
+- Email: **[namanchanana2005@gmail.com]**  
+- LinkedIn: [linkedin.com/in/naman-rishy09](https://www.linkedin.com/in/naman-chanana-229317299/) 
+- Kaggle: [kaggle.com/Rishy09]([https://kaggle.com/Rishy09](https://www.kaggle.com/namanchanana))
+
+---
+
+### ⚡ Fun Facts & Philosophy
+- I learn best by **building from scratch**, not just theory.
+- Transformer architectures fascinate me; that’s why I built GPT models from scratch.
+- I keep my GitHub active by regularly updating projects and learning new skills.
+- Focused on **real-world applications** and contributing meaningfully to open source and internships.
+
+---
+
+<!-- Optional: Add any certifications, learning badges, or additional projects here -->
+
