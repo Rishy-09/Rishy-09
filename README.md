@@ -18,6 +18,8 @@
 
 ### 🧠 About Me
 
+📄 Resume: [View Resume](https://drive.google.com/file/d/1Uqvan4HWL-NYKmPLx-24l01zYpS5tIKR/view?usp=sharing)
+
 - 🎓 I'm pursuing BTech in CSE with a major in **Machine Learning**  
 - 🔬 Currently exploring and building **GPT-style transformer models**  
 - ⚙️ Built a decoder-only transformer for **spell correction** using PyTorch  
