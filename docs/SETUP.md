@@ -1,29 +1,23 @@
 # Setup
 
-Copy everything in this folder into your profile repository:
+Copy these files into your profile repository: `Rishy-09/Rishy-09`.
 
 ```bash
-# profile repo should be named exactly Rishy-09
-# https://github.com/Rishy-09/Rishy-09
-
 git add .
-git commit -m "feat: polish animated systems lab profile"
+git commit -m "polish profile layout and generated activity cards"
 git push origin main
 ```
 
-## Notes
+Then open GitHub Actions and run:
 
-1. The SVG assets are local and should render directly in the README.
-2. Motion is done inside SVGs, not with JavaScript.
-3. Email is intentionally hidden.
-4. Make sure the AI Voice Calling Assistant repo is public, otherwise its project card will link to a 404 page.
-5. If any card still feels tight on GitHub mobile, switch the project table to one card per row.
+`Generate profile summary cards` → `Run workflow`
 
-## Pinned repo order
+## Stats behavior
 
-- AI-Voice-Calling-Assistant
-- RAG_LLM
-- CtrlX_Error
-- English2PunjabiTranslator
-- kmeans-image-compression
-- one future polished project: agentic-rag / codementor-ai / nanogpt
+The custom SVG sections such as hero, system-flow, proof-matrix, tech-orbit, project cards, signals, and operating-loop are static design assets. Their text is manually written.
+
+The Activity Console uses `github-profile-summary-cards`. Those cards are real GitHub-derived stats, but the generated SVG files are static snapshots. They refresh when the scheduled workflow runs or when you manually run the workflow.
+
+## Important
+
+If `AI-Voice-Calling-Assistant` stays private or the org blocks access, visitors will see a 404 from that card link.

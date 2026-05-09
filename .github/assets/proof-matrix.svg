@@ -1,10 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Project proof matrix">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050816"/><stop offset="55%" stop-color="#020617"/><stop offset="100%" stop-color="#061827"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>@keyframes rise{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}.row{animation:rise 6s ease-in-out infinite}.row:nth-child(2){animation-delay:.4s}.row:nth-child(3){animation-delay:.8s}.row:nth-child(4){animation-delay:1.2s}.row:nth-child(5){animation-delay:1.6s}.sans{font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Arial}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}</style></defs>
-<rect width="1280" height="340" rx="30" fill="url(#bg)"/><text class="sans" x="52" y="56" fill="#f8fafc" font-size="28" font-weight="900">WHAT THE SYSTEMS PROVE</text><text class="mono" x="52" y="88" fill="#7dd3fc" font-size="15">colored signal map instead of plain bullet spam</text>
-<g transform="translate(58 118)" class="sans" font-weight="800" font-size="16">
- <g class="row"><rect width="1164" height="38" rx="18" fill="#07111f" stroke="#38bdf8" stroke-opacity=".26"/><text x="22" y="25" fill="#67e8f9">Voice AI</text><text x="210" y="25" fill="#e5e7eb">real-time call handling, VAD, barge-in, STT → LLM → TTS, Twilio Media Streams</text></g>
- <g class="row" transform="translate(0 48)"><rect width="1164" height="38" rx="18" fill="#07111f" stroke="#a78bfa" stroke-opacity=".26"/><text x="22" y="25" fill="#c4b5fd">RAG Systems</text><text x="210" y="25" fill="#e5e7eb">PDF ingestion, semantic search, local LLM inference, vector retrieval, API-key protected endpoints</text></g>
- <g class="row" transform="translate(0 96)"><rect width="1164" height="38" rx="18" fill="#07111f" stroke="#22c55e" stroke-opacity=".26"/><text x="22" y="25" fill="#86efac">Full-Stack Apps</text><text x="210" y="25" fill="#e5e7eb">MERN dashboards, RBAC, REST APIs, auth flows, exports, file handling, status workflows</text></g>
- <g class="row" transform="translate(0 144)"><rect width="1164" height="38" rx="18" fill="#07111f" stroke="#f59e0b" stroke-opacity=".26"/><text x="22" y="25" fill="#fcd34d">Model Internals</text><text x="210" y="25" fill="#e5e7eb">Transformer training loops, tokenization, masking, failure analysis, rebuild-from-scratch thinking</text></g>
- <g class="row" transform="translate(0 192)"><rect width="1164" height="38" rx="18" fill="#07111f" stroke="#ef4444" stroke-opacity=".24"/><text x="22" y="25" fill="#fca5a5">ML Fundamentals</text><text x="210" y="25" fill="#e5e7eb">K-Means compression, visual evaluation, tradeoff analysis, implementation without hiding behind libraries</text></g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-label="Project proof matrix">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#050816"/><stop offset="55%" stop-color="#020617"/><stop offset="100%" stop-color="#061827"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#38bdf8" stop-opacity=".35"/><stop offset="60%" stop-color="#a78bfa" stop-opacity=".10"/><stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes pulseStroke{0%,100%{stroke-opacity:.22}50%{stroke-opacity:.62}}
+      @keyframes softBlink{0%,100%{opacity:.72}50%{opacity:1}}
+      .card rect.panel{animation:pulseStroke 5.5s ease-in-out infinite}
+      .card:nth-child(2) rect.panel{animation-delay:.5s}.card:nth-child(3) rect.panel{animation-delay:1s}.card:nth-child(4) rect.panel{animation-delay:1.5s}.card:nth-child(5) rect.panel{animation-delay:2s}
+      .dot{animation:softBlink 3.5s ease-in-out infinite}.sans{font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Arial}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+    </style>
+  </defs>
+  <rect width="1280" height="520" rx="32" fill="url(#bg)"/>
+  <circle cx="1040" cy="80" r="220" fill="url(#halo)"/>
+  <circle cx="190" cy="440" r="260" fill="url(#halo)" opacity=".75"/>
+
+  <text class="sans" x="56" y="60" fill="#f8fafc" font-size="31" font-weight="900">PROOF SIGNALS</text>
+  <text class="mono" x="56" y="94" fill="#7dd3fc" font-size="15">what each system proves beyond a normal student project</text>
+
+  <g class="sans" font-weight="800" font-size="16">
+    <g class="card" transform="translate(56 128)">
+      <rect class="panel" width="552" height="86" rx="22" fill="#07111f" stroke="#38bdf8"/>
+      <circle class="dot" cx="38" cy="43" r="12" fill="#38bdf8" filter="url(#glow)"/>
+      <text x="66" y="34" fill="#67e8f9" font-size="18">Voice AI</text>
+      <text x="66" y="59" fill="#e5e7eb" font-size="14" font-weight="650">Real-time calls, VAD, barge-in, Twilio streams</text>
+    </g>
+    <g class="card" transform="translate(672 128)">
+      <rect class="panel" width="552" height="86" rx="22" fill="#07111f" stroke="#a78bfa"/>
+      <circle class="dot" cx="38" cy="43" r="12" fill="#a78bfa" filter="url(#glow)"/>
+      <text x="66" y="34" fill="#c4b5fd" font-size="18">RAG Systems</text>
+      <text x="66" y="59" fill="#e5e7eb" font-size="14" font-weight="650">PDF ingestion, semantic search, local LLM inference</text>
+    </g>
+    <g class="card" transform="translate(56 238)">
+      <rect class="panel" width="552" height="86" rx="22" fill="#07111f" stroke="#22c55e"/>
+      <circle class="dot" cx="38" cy="43" r="12" fill="#22c55e" filter="url(#glow)"/>
+      <text x="66" y="34" fill="#86efac" font-size="18">Full-Stack Apps</text>
+      <text x="66" y="59" fill="#e5e7eb" font-size="14" font-weight="650">MERN dashboards, RBAC, REST APIs, exports</text>
+    </g>
+    <g class="card" transform="translate(672 238)">
+      <rect class="panel" width="552" height="86" rx="22" fill="#07111f" stroke="#f59e0b"/>
+      <circle class="dot" cx="38" cy="43" r="12" fill="#f59e0b" filter="url(#glow)"/>
+      <text x="66" y="34" fill="#fcd34d" font-size="18">Model Internals</text>
+      <text x="66" y="59" fill="#e5e7eb" font-size="14" font-weight="650">Transformer loops, tokenization, masking, failures</text>
+    </g>
+    <g class="card" transform="translate(260 350)">
+      <rect class="panel" width="760" height="92" rx="24" fill="#07111f" stroke="#ef4444"/>
+      <circle class="dot" cx="42" cy="46" r="12" fill="#ef4444" filter="url(#glow)"/>
+      <text x="74" y="36" fill="#fca5a5" font-size="18">ML Fundamentals</text>
+      <text x="74" y="62" fill="#e5e7eb" font-size="14" font-weight="650">K-Means compression, visual tradeoffs, from-scratch implementation mindset</text>
+    </g>
+  </g>
+</svg>
