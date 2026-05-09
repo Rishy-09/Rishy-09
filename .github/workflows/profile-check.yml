@@ -1,0 +1,21 @@
+name: Profile sanity check
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify required profile assets
+        run: |
+          test -f README.md
+          test -f .github/assets/hero-lab.svg
+          test -f .github/assets/system-flow.svg
+          test -f .github/assets/tech-orbit.svg
+          test -f .github/assets/signals-v2.svg
+          test -f .github/assets/project-cards/voice-agent.svg
+          echo "Profile assets are present."

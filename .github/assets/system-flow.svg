@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="System flow map">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050816"/><stop offset="55%" stop-color="#020617"/><stop offset="100%" stop-color="#08111f"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38bdf8"/><stop offset="50%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#22c55e"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#67e8f9" opacity=".22"/></pattern>
+    <style>
+      @keyframes dash { to { stroke-dashoffset: -440; } }
+      @keyframes node { 0%,100%{transform:scale(1);opacity:.8} 50%{transform:scale(1.08);opacity:1} }
+      @keyframes lift { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
+      .dash{stroke-dasharray:10 18; animation:dash 9s linear infinite}.node{animation:node 3s ease-in-out infinite; transform-origin:center}.lift{animation:lift 5s ease-in-out infinite}.sans{font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Arial}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+    </style>
+  </defs>
+  <rect width="1280" height="300" rx="30" fill="url(#bg)"/>
+  <rect width="1280" height="300" rx="30" fill="url(#dots)" opacity=".8"/>
+  <text class="sans" x="48" y="55" fill="#f8fafc" font-size="26" font-weight="900">SYSTEM BUILD MAP</text>
+  <text class="mono" x="48" y="84" fill="#7dd3fc" font-size="15">from model internals to APIs, dashboards, voice pipelines and deployable tools</text>
+  <path class="dash" d="M162 172 C340 82, 478 82, 640 172 S940 262, 1116 172" fill="none" stroke="url(#edge)" stroke-width="4" opacity=".75" filter="url(#glow)"/>
+  <g class="sans" font-weight="800">
+    <g class="lift" transform="translate(70 125)"><rect width="185" height="95" rx="22" fill="#0b1220" stroke="#38bdf8" stroke-opacity=".45"/><circle class="node" cx="42" cy="48" r="19" fill="#0e7490" filter="url(#glow)"/><text x="72" y="38" fill="#e0f2fe" font-size="18">Voice Agents</text><text x="72" y="64" fill="#93c5fd" font-size="13">STT → LLM → TTS</text></g>
+    <g class="lift" style="animation-delay:.5s" transform="translate(365 70)"><rect width="185" height="95" rx="22" fill="#0b1220" stroke="#a78bfa" stroke-opacity=".45"/><circle class="node" cx="42" cy="48" r="19" fill="#6d28d9" filter="url(#glow)"/><text x="72" y="38" fill="#f5f3ff" font-size="18">RAG Systems</text><text x="72" y="64" fill="#c4b5fd" font-size="13">Qdrant + FastAPI</text></g>
+    <g class="lift" style="animation-delay:1s" transform="translate(660 125)"><rect width="185" height="95" rx="22" fill="#0b1220" stroke="#22c55e" stroke-opacity=".42"/><circle class="node" cx="42" cy="48" r="19" fill="#15803d" filter="url(#glow)"/><text x="72" y="38" fill="#dcfce7" font-size="18">Full-Stack</text><text x="72" y="64" fill="#86efac" font-size="13">MERN dashboards</text></g>
+    <g class="lift" style="animation-delay:1.5s" transform="translate(955 70)"><rect width="205" height="95" rx="22" fill="#0b1220" stroke="#f59e0b" stroke-opacity=".45"/><circle class="node" cx="42" cy="48" r="19" fill="#b45309" filter="url(#glow)"/><text x="72" y="38" fill="#ffedd5" font-size="18">Transformers</text><text x="72" y="64" fill="#fed7aa" font-size="13">training + translation</text></g>
+  </g>
+</svg>
