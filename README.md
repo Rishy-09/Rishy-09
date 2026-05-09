@@ -65,7 +65,7 @@
 ## Activity console
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Rishy-09&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&bg_color=020617&title_color=7dd3fc&icon_color=a78bfa&text_color=e5e7eb" />
+  <!-- <img height="170" src="https://github-readme-stats.vercel.app/api?username=Rishy-09&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&bg_color=020617&title_color=7dd3fc&icon_color=a78bfa&text_color=e5e7eb" /> -->
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rishy-09&layout=compact&theme=github_dark&hide_border=true&bg_color=020617&title_color=7dd3fc&text_color=e5e7eb" />
 </p>
 
