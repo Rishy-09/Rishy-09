@@ -1,7 +1,6 @@
 <!--
-  Rishy-09 GitHub Profile — V2 Mad-Systems Lab Theme
-  Email intentionally hidden.
-  Assets are local SVGs so the profile does not depend on random external banner services.
+  Rishy-09 GitHub Profile — V3 Systems Lab polish
+  Email intentionally hidden. Motion is SVG/CSS only; no JavaScript required.
 -->
 
 <p align="center">
@@ -19,7 +18,7 @@
 <h2 align="center">AI/ML + Full-Stack Engineer</h2>
 
 <p align="center">
-  I build intelligent systems end-to-end: <b>local voice agents</b>, <b>RAG backends</b>, <b>Transformer experiments</b>, <b>MERN dashboards</b>, APIs, memory layers, and deployment-style products.
+  <b>I build intelligent systems end-to-end:</b> local voice agents, RAG backends, Transformer experiments, MERN dashboards, APIs, memory layers, and deployment-style products.
 </p>
 
 <p align="center">
@@ -55,15 +54,9 @@
 </tr>
 </table>
 
-## What these projects prove
-
-```txt
-Voice AI          → real-time call handling, VAD, barge-in, STT → LLM → TTS, Twilio streams
-RAG Systems       → PDF ingestion, semantic search, local LLM inference, vector retrieval
-Full-Stack Apps   → MERN dashboards, RBAC, REST APIs, exports, file handling, auth flows
-Model Internals   → Transformer training loops, tokenization, masking, iteration from failure
-ML Fundamentals   → K-Means image compression, evaluation tradeoffs, from-scratch thinking
-```
+<p align="center">
+  <img src="./.github/assets/proof-matrix.svg" width="100%" alt="What these systems prove" />
+</p>
 
 <p align="center">
   <img src="./.github/assets/tech-orbit.svg" width="100%" alt="Tech stack orbit" />
@@ -88,15 +81,9 @@ ML Fundamentals   → K-Means image compression, evaluation tradeoffs, from-scra
   <img src="./.github/assets/signals-v2.svg" width="100%" alt="Proof signals" />
 </p>
 
-## Current operating loop
-
-```txt
-1. Break the model open      → understand the internals, not just the API
-2. Build the backend         → FastAPI / Node / Express, clean routes, real data flow
-3. Add memory + retrieval    → RAG, vector DBs, profile memory, ground-truth context
-4. Ship an interface         → dashboards, tools, call flows, deployable product shape
-5. Document the failure      → what broke, what improved, what should be rebuilt next
-```
+<p align="center">
+  <img src="./.github/assets/operating-loop.svg" width="100%" alt="Current operating loop" />
+</p>
 
 <p align="center">
   <sub>Systems-first profile · local AI, full-stack engineering, and no fake perfection</sub>

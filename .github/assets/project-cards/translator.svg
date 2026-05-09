@@ -1,24 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="610" height="235" viewBox="0 0 610 235" role="img" aria-label="English2PunjabiTranslator">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08111f"/><stop offset="55%" stop-color="#020617"/><stop offset="100%" stop-color="#0b1220"/></linearGradient>
-    <radialGradient id="r" cx="82%" cy="12%" r="70%"><stop stop-color="#f59e0b" stop-opacity=".36"/><stop offset="75%" stop-color="#020617" stop-opacity="0"/></radialGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <style>
-      @keyframes pulse{0%,100%{opacity:.35;transform:scale(1)}50%{opacity:.9;transform:scale(1.06)}}
-      @keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-20px,16px)}}
-      @keyframes dash{to{stroke-dashoffset:-320}}
-      .pulse{animation:pulse 3s ease-in-out infinite;transform-origin:center}.drift{animation:drift 7s ease-in-out infinite}.dash{stroke-dasharray:8 14;animation:dash 8s linear infinite}.sans{font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Arial}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
-    </style>
-  </defs>
-  <rect width="610" height="235" rx="26" fill="url(#bg)" stroke="#f59e0b" stroke-opacity=".32"/>
-  <rect width="610" height="235" rx="26" fill="url(#r)"/>
-  <g class="drift" opacity=".7"><circle cx="510" cy="58" r="68" fill="#f59e0b" opacity=".13"/><circle cx="560" cy="180" r="92" fill="#f59e0b" opacity=".08"/></g>
-  <circle class="pulse" cx="76" cy="74" r="34" fill="#b45309" stroke="#f59e0b" stroke-width="2" filter="url(#glow)"/>
-  <text x="76" y="85" text-anchor="middle" font-size="31">🔤</text>
-  <text class="sans" x="126" y="63" fill="#f8fafc" font-size="27" font-weight="900">English2PunjabiTranslator</text>
-  <text class="sans" x="126" y="96" fill="#cbd5e1" font-size="16" font-weight="650">Transformer translation system built through iteration.</text>
-  <rect x="126" y="122" width="420" height="37" rx="18.5" fill="#020617" stroke="#f59e0b" stroke-opacity=".28"/>
-  <text class="mono" x="146" y="146" fill="#dbeafe" font-size="14">PyTorch • Attention • Tokenization • Training loops</text>
-  <path class="dash" d="M72 179 H540" fill="none" stroke="#f59e0b" stroke-width="2" opacity=".38"/>
-  <text class="mono" x="70" y="208" fill="#f59e0b" font-size="13" font-weight="800">OPEN REPOSITORY →</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="610" height="285" viewBox="0 0 610 285" role="img" aria-label="English to Punjabi Translator">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08111f"/><stop offset="55%" stop-color="#020617"/><stop offset="100%" stop-color="#0b1220"/></linearGradient><radialGradient id="r" cx="84%" cy="10%" r="70%"><stop stop-color="#f59e0b" stop-opacity=".36"/><stop offset="75%" stop-color="#020617" stop-opacity="0"/></radialGradient><filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>@keyframes pulse{0%,100%{opacity:.35;transform:scale(1)}50%{opacity:.9;transform:scale(1.06)}}@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-20px,16px)}}@keyframes dash{to{stroke-dashoffset:-320}}.pulse{animation:pulse 3s ease-in-out infinite;transform-origin:center}.drift{animation:drift 7s ease-in-out infinite}.dash{stroke-dasharray:8 14;animation:dash 8s linear infinite}.sans{font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Arial}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}</style></defs>
+  <rect width="610" height="285" rx="28" fill="url(#bg)" stroke="#f59e0b" stroke-opacity=".34"/><rect width="610" height="285" rx="28" fill="url(#r)"/><g class="drift" opacity=".7"><circle cx="510" cy="62" r="72" fill="#f59e0b" opacity=".13"/><circle cx="560" cy="208" r="98" fill="#f59e0b" opacity=".08"/></g>
+  <circle class="pulse" cx="76" cy="78" r="35" fill="#b45309" stroke="#f59e0b" stroke-width="2" filter="url(#glow)"/><text x="76" y="89" text-anchor="middle" font-size="31">🔤</text>
+  <text class="sans" x="126" y="62" fill="#f8fafc" font-size="26" font-weight="900">English2Punjabi</text><text class="sans" x="126" y="92" fill="#f8fafc" font-size="26" font-weight="900">Translator</text>
+  <text class="sans" x="126" y="126" fill="#cbd5e1" font-size="15" font-weight="650">Transformer translation system built through</text><text class="sans" x="126" y="149" fill="#cbd5e1" font-size="15" font-weight="650">iteration, failure analysis and model rebuilding.</text>
+  <rect x="126" y="184" width="438" height="70" rx="20" fill="#020617" stroke="#f59e0b" stroke-opacity=".28"/><text class="mono" x="146" y="209" fill="#dbeafe" font-size="13.5">PyTorch • Attention • Tokenization</text><text class="mono" x="146" y="231" fill="#dbeafe" font-size="13.5">Training Loops • Masking • Evaluation</text>
+  <path class="dash" d="M72 227 H540" fill="none" stroke="#f59e0b" stroke-width="2" opacity=".38"/>
+  <text class="mono" x="70" y="259" fill="#f59e0b" font-size="13" font-weight="800">OPEN REPOSITORY →</text>
 </svg>

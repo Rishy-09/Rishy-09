@@ -16,6 +16,8 @@ jobs:
           test -f .github/assets/hero-lab.svg
           test -f .github/assets/system-flow.svg
           test -f .github/assets/tech-orbit.svg
+          test -f .github/assets/proof-matrix.svg
           test -f .github/assets/signals-v2.svg
+          test -f .github/assets/operating-loop.svg
           test -f .github/assets/project-cards/voice-agent.svg
           echo "Profile assets are present."

@@ -7,7 +7,7 @@ Copy everything in this folder into your profile repository:
 # https://github.com/Rishy-09/Rishy-09
 
 git add .
-git commit -m "feat: redesign profile with animated systems lab theme"
+git commit -m "feat: polish animated systems lab profile"
 git push origin main
 ```
 
@@ -17,20 +17,13 @@ git push origin main
 2. Motion is done inside SVGs, not with JavaScript.
 3. Email is intentionally hidden.
 4. Make sure the AI Voice Calling Assistant repo is public, otherwise its project card will link to a 404 page.
-5. Pin these repositories on your GitHub profile:
-   - AI-Voice-Calling-Assistant
-   - RAG_LLM
-   - CtrlX_Error
-   - English2PunjabiTranslator
-   - kmeans-image-compression
-   - one strong future project: agentic-rag / codementor-ai / nanogpt
+5. If any card still feels tight on GitHub mobile, switch the project table to one card per row.
 
-## To customize colors
+## Pinned repo order
 
-Open the SVG files and change these colors:
-
-- Cyan: `#38bdf8`, `#67e8f9`
-- Purple: `#a78bfa`, `#7c3aed`
-- Green: `#22c55e`
-- Amber: `#f59e0b`
-- Background: `#020617`
+- AI-Voice-Calling-Assistant
+- RAG_LLM
+- CtrlX_Error
+- English2PunjabiTranslator
+- kmeans-image-compression
+- one future polished project: agentic-rag / codementor-ai / nanogpt
