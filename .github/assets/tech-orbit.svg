@@ -1,12 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Tech stack orbit">
-<defs><radialGradient id="bg" cx="50%" cy="45%" r="72%"><stop stop-color="#0b1b35"/><stop offset="60%" stop-color="#020617"/><stop offset="100%" stop-color="#020617"/></radialGradient><filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>@keyframes spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}@keyframes spin2{from{transform:rotate(360deg)}to{transform:rotate(0)}}@keyframes pulse{0%,100%{opacity:.42}50%{opacity:1}}.orbit{animation:spin 34s linear infinite;transform-origin:640px 215px}.orbit2{animation:spin2 42s linear infinite;transform-origin:640px 215px}.pulse{animation:pulse 2.6s ease-in-out infinite}.sans{font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Arial}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}</style></defs>
-<rect width="1280" height="420" rx="30" fill="url(#bg)"/><text class="sans" x="52" y="58" fill="#f8fafc" font-size="28" font-weight="900">TECH STACK CONSOLE</text><text class="mono" x="52" y="90" fill="#7dd3fc" font-size="15">tools grouped by what they help me ship — not badge decoration</text>
-<circle cx="640" cy="215" r="76" fill="#07111f" stroke="#67e8f9" stroke-width="2" filter="url(#glow)"/><text class="sans" x="640" y="205" fill="#e0f2fe" text-anchor="middle" font-size="25" font-weight="900">AI/ML</text><text class="sans" x="640" y="237" fill="#c4b5fd" text-anchor="middle" font-size="22" font-weight="900">FULL-STACK</text>
-<g class="orbit" opacity=".95"><circle cx="640" cy="215" r="140" fill="none" stroke="#38bdf8" stroke-opacity=".25" stroke-dasharray="5 11"/><circle cx="500" cy="215" r="9" fill="#38bdf8" filter="url(#glow)"/><circle cx="780" cy="215" r="9" fill="#a78bfa" filter="url(#glow)"/><circle cx="640" cy="75" r="9" fill="#22c55e" filter="url(#glow)"/><circle cx="640" cy="355" r="9" fill="#f59e0b" filter="url(#glow)"/></g><g class="orbit2" opacity=".9"><circle cx="640" cy="215" r="190" fill="none" stroke="#a78bfa" stroke-opacity=".20" stroke-dasharray="4 15"/><circle cx="450" cy="215" r="7" fill="#67e8f9"/><circle cx="830" cy="215" r="7" fill="#c084fc"/><circle cx="640" cy="25" r="7" fill="#86efac"/><circle cx="640" cy="405" r="7" fill="#fbbf24"/></g>
-<g class="sans" font-size="15" font-weight="850">
-  <g transform="translate(70 145)"><rect width="265" height="122" rx="22" fill="#07111f" stroke="#38bdf8" stroke-opacity=".35"/><text x="24" y="36" fill="#67e8f9">ML / AI</text><text x="24" y="70" fill="#e5e7eb">PyTorch • Transformers</text><text x="24" y="98" fill="#e5e7eb">RAG • LangChain • Ollama</text></g>
-  <g transform="translate(945 145)"><rect width="265" height="122" rx="22" fill="#07111f" stroke="#22c55e" stroke-opacity=".35"/><text x="24" y="36" fill="#86efac">Full-Stack</text><text x="24" y="70" fill="#e5e7eb">React • Node • Express</text><text x="24" y="98" fill="#e5e7eb">FastAPI • REST APIs</text></g>
-  <g transform="translate(350 35)"><rect width="245" height="100" rx="22" fill="#07111f" stroke="#a78bfa" stroke-opacity=".35"/><text x="24" y="36" fill="#c4b5fd">Data / Vector</text><text x="24" y="70" fill="#e5e7eb">MongoDB • MySQL • Qdrant</text></g>
-  <g transform="translate(685 35)"><rect width="245" height="100" rx="22" fill="#07111f" stroke="#f59e0b" stroke-opacity=".35"/><text x="24" y="36" fill="#fcd34d">Systems</text><text x="24" y="70" fill="#e5e7eb">Docker • Git • Postman</text></g>
-  <g transform="translate(350 305)"><rect width="580" height="74" rx="22" fill="#07111f" stroke="#67e8f9" stroke-opacity=".22"/><text x="24" y="34" fill="#dbeafe">Python • Java • C • JavaScript • NumPy • Pandas</text><text x="24" y="58" fill="#dbeafe">Audio Processing • Vector Search • API Design</text></g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-label="Tech stack orbit">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="48%" r="78%">
+      <stop stop-color="#0b1b35"/>
+      <stop offset="58%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#0ea5e9" stop-opacity=".34"/>
+      <stop offset="60%" stop-color="#7c3aed" stop-opacity=".14"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      @keyframes spin2 { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+      @keyframes breathe { 0%,100% { opacity:.38; } 50% { opacity:.85; } }
+      .orbit { animation: spin 38s linear infinite; transform-origin: 640px 278px; }
+      .orbit2 { animation: spin2 48s linear infinite; transform-origin: 640px 278px; }
+      .breathe { animation: breathe 3.6s ease-in-out infinite; }
+      .sans { font-family: Inter, ui-sans-serif, system-ui, Segoe UI, Arial; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="520" rx="32" fill="url(#bg)"/>
+  <ellipse cx="640" cy="280" rx="380" ry="225" fill="url(#core)"/>
+
+  <text class="sans" x="52" y="58" fill="#f8fafc" font-size="28" font-weight="900">TECH STACK CONSOLE</text>
+  <text class="mono" x="52" y="91" fill="#7dd3fc" font-size="15">tools grouped by what they help me ship — not badge decoration</text>
+
+  <g class="orbit" opacity=".92">
+    <circle cx="640" cy="278" r="135" fill="none" stroke="#38bdf8" stroke-opacity=".23" stroke-dasharray="5 12"/>
+    <circle cx="505" cy="278" r="8" fill="#38bdf8" filter="url(#glow)"/>
+    <circle cx="775" cy="278" r="8" fill="#a78bfa" filter="url(#glow)"/>
+    <circle cx="640" cy="143" r="8" fill="#22c55e" filter="url(#glow)"/>
+    <circle cx="640" cy="413" r="8" fill="#f59e0b" filter="url(#glow)"/>
+  </g>
+
+  <g class="orbit2" opacity=".82">
+    <circle cx="640" cy="278" r="188" fill="none" stroke="#a78bfa" stroke-opacity=".18" stroke-dasharray="4 16"/>
+    <circle cx="452" cy="278" r="6" fill="#67e8f9"/>
+    <circle cx="828" cy="278" r="6" fill="#c084fc"/>
+    <circle cx="640" cy="90" r="6" fill="#86efac"/>
+    <circle cx="640" cy="466" r="6" fill="#fbbf24"/>
+  </g>
+
+  <circle cx="640" cy="278" r="82" fill="#07111f" stroke="#67e8f9" stroke-width="2" filter="url(#glow)"/>
+  <circle class="breathe" cx="640" cy="278" r="104" fill="none" stroke="#7dd3fc" stroke-opacity=".18"/>
+  <text class="sans" x="640" y="268" fill="#e0f2fe" text-anchor="middle" font-size="25" font-weight="900">AI/ML</text>
+  <text class="sans" x="640" y="300" fill="#c4b5fd" text-anchor="middle" font-size="22" font-weight="900">FULL-STACK</text>
+
+  <g class="sans" font-size="15" font-weight="850">
+    <g transform="translate(70 200)">
+      <rect width="272" height="126" rx="24" fill="#07111f" stroke="#38bdf8" stroke-opacity=".36"/>
+      <text x="24" y="38" fill="#67e8f9">ML / AI</text>
+      <text x="24" y="74" fill="#e5e7eb">PyTorch • Transformers</text>
+      <text x="24" y="102" fill="#e5e7eb">RAG • LangChain • Ollama</text>
+    </g>
+
+    <g transform="translate(938 200)">
+      <rect width="272" height="126" rx="24" fill="#07111f" stroke="#22c55e" stroke-opacity=".36"/>
+      <text x="24" y="38" fill="#86efac">Full-Stack</text>
+      <text x="24" y="74" fill="#e5e7eb">React • Node • Express</text>
+      <text x="24" y="102" fill="#e5e7eb">FastAPI • REST APIs</text>
+    </g>
+
+    <g transform="translate(350 122)">
+      <rect width="250" height="102" rx="24" fill="#07111f" stroke="#a78bfa" stroke-opacity=".36"/>
+      <text x="24" y="38" fill="#c4b5fd">Data / Vector</text>
+      <text x="24" y="74" fill="#e5e7eb">MongoDB • MySQL</text>
+      <text x="24" y="92" fill="#e5e7eb" font-size="13">Qdrant</text>
+    </g>
+
+    <g transform="translate(680 122)">
+      <rect width="250" height="102" rx="24" fill="#07111f" stroke="#f59e0b" stroke-opacity=".36"/>
+      <text x="24" y="38" fill="#fcd34d">Systems</text>
+      <text x="24" y="74" fill="#e5e7eb">Docker • Git</text>
+      <text x="24" y="92" fill="#e5e7eb" font-size="13">Postman • APIs</text>
+    </g>
+
+    <g transform="translate(310 405)">
+      <rect width="660" height="78" rx="24" fill="#07111f" stroke="#67e8f9" stroke-opacity=".24"/>
+      <text x="30" y="33" fill="#dbeafe">Python • Java • C • JavaScript • NumPy • Pandas</text>
+      <text x="30" y="59" fill="#dbeafe">Audio Processing • Vector Search • API Design • Real-time pipelines</text>
+    </g>
+  </g>
+</svg>
