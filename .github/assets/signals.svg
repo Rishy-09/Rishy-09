@@ -1,0 +1,25 @@
+<svg width="1100" height="260" viewBox="0 0 1100 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1100" y2="260"><stop stop-color="#05070A"/><stop offset="1" stop-color="#10131F"/></linearGradient>
+</defs>
+<rect width="1100" height="260" rx="24" fill="url(#bg)"/>
+<text x="46" y="58" fill="#EAF2FF" font-family="Inter,Segoe UI,Arial" font-size="30" font-weight="850">Signals</text>
+<text x="46" y="88" fill="#8FA3C7" font-family="Inter,Segoe UI,Arial" font-size="15">Proof that I compete, ship, and keep improving</text>
+<g font-family="Inter,Segoe UI,Arial">
+<rect x="46" y="122" width="230" height="82" rx="18" fill="#0B1220" stroke="#334155"/>
+<text x="70" y="153" fill="#FBBF24" font-size="14" font-weight="850">Amazon ML Challenge</text>
+<text x="70" y="181" fill="#E2E8F0" font-size="15">Ranked 1565 / 80,000+</text>
+
+<rect x="306" y="122" width="230" height="82" rx="18" fill="#0B1220" stroke="#334155"/>
+<text x="330" y="153" fill="#38BDF8" font-size="14" font-weight="850">Hackveda 2026</text>
+<text x="330" y="181" fill="#E2E8F0" font-size="15">Winner · Top 10 Teams</text>
+
+<rect x="566" y="122" width="230" height="82" rx="18" fill="#0B1220" stroke="#334155"/>
+<text x="590" y="153" fill="#A78BFA" font-size="14" font-weight="850">IBM Innovation Poster</text>
+<text x="590" y="181" fill="#E2E8F0" font-size="15">1st Place · 2024</text>
+
+<rect x="826" y="122" width="228" height="82" rx="18" fill="#0B1220" stroke="#334155"/>
+<text x="850" y="153" fill="#22D3EE" font-size="14" font-weight="850">HashByte Studio</text>
+<text x="850" y="181" fill="#E2E8F0" font-size="15">Game Dev Intern</text>
+</g>
+</svg>
