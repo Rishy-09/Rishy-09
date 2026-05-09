@@ -65,8 +65,17 @@
 ## Activity console
 
 <p align="center">
-  <!-- <img height="170" src="https://github-readme-stats.vercel.app/api?username=Rishy-09&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&bg_color=020617&title_color=7dd3fc&icon_color=a78bfa&text_color=e5e7eb" /> -->
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rishy-09&layout=compact&theme=github_dark&hide_border=true&bg_color=020617&title_color=7dd3fc&text_color=e5e7eb" />
+  <img width="49%" src="./profile-summary-card-output/github_dark/0-profile-details.svg" />
+</p>
+
+<p align="center">
+  <img width="49%" src="./profile-summary-card-output/github_dark/3-stats.svg" />
+  <img width="49%" src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" />
+</p>
+
+<p align="center">
+  <img width="49%" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" />
+  <img width="49%" src="./profile-summary-card-output/github_dark/4-productive-time.svg" />
 </p>
 
 <p align="center">
