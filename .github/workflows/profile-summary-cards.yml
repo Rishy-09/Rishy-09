@@ -19,6 +19,8 @@ jobs:
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # this line forces the newer version of nodes
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
         with:
           USERNAME: Rishy-09
           UTC_OFFSET: 5.5
