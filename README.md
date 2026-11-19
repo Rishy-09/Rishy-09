@@ -14,6 +14,9 @@
   <a href="https://www.kaggle.com/namanchanana"><img src="https://img.shields.io/badge/Kaggle-namanchanana-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
   <a href="https://leetcode.com/u/Naman_Chanana/"><img src="https://img.shields.io/badge/LeetCode-Naman_Chanana-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
   <a href="https://codolio.com/profile/xvYw0Y2E"><img src="https://img.shields.io/badge/Codolio-Profile-7C3AED?style=for-the-badge" /></a>
+  <a href="https://codeberg.org/Rishy-09"><img src="https://img.shields.io/badge/Codeberg-Rishy--09-2185D0?style=for-the-badge&logo=codeberg&logoColor=white" /></a>
+  <a href="https://matrix.to/#/@rishy-09:matrix.org"><img src="https://img.shields.io/badge/Matrix-@rishy--09:matrix.org-000000?style=for-the-badge&logo=matrix&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/IRC-Rishy09%20@%20Libera.Chat-FF55DD?style=for-the-badge" />
 </p>
 
 <h2 align="center">AI/ML + Full-Stack Engineer</h2>
