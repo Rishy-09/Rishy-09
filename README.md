@@ -9,7 +9,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Rishy-09"><img src="https://img.shields.io/badge/GitHub-Rishy--09-0B1120?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/naman-chanana-229317299/"><img src="https://img.shields.io/badge/LinkedIn-Naman%20Chanana-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://www.kaggle.com/namanchanana"><img src="https://img.shields.io/badge/Kaggle-namanchanana-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
   <a href="https://leetcode.com/u/Naman_Chanana/"><img src="https://img.shields.io/badge/LeetCode-Naman_Chanana-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
@@ -19,7 +18,7 @@
   <img src="https://img.shields.io/badge/IRC-Rishy09%20@%20Libera.Chat-FF55DD?style=for-the-badge" />
 </p>
 
-<h2 align="center">AI/ML + Full-Stack Engineer</h2>
+<h2 align="center">AI Systems · LLMs · Full-Stack Engineering</h2>
 
 <p align="center">
   <b>I build intelligent systems end-to-end:</b> local voice agents, RAG backends, Transformer experiments, MERN dashboards, APIs, memory layers, and deployment-style products.
@@ -86,16 +85,9 @@
 
 <br>
 
-<table align="center">
-  <tr>
-    <td width="50%" align="center">
-      <img width="100%" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub stats" />
-    </td>
-    <td width="50%" align="center">
-      <img width="100%" src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Productive time" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img width="70%" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub stats" />
+</p>
 
 <br>
 
