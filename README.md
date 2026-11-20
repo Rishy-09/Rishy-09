@@ -91,16 +91,9 @@
 
 <br>
 
-<table align="center">
-  <tr>
-    <td width="50%" align="center">
-      <img width="100%" src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repos per language" />
-    </td>
-    <td width="50%" align="center">
-      <img width="100%" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Most committed languages" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img width="70%" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Most committed languages" />
+</p>
 
 <br>
 
